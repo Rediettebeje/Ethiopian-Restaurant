@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today's Specials</title>
+    <link href="../css/tables.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/menu.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <label id="mylogo" class="logo">
+        <img
+          src="../images/Ethiopian Kitchen.png"
+          style="width: 100px; height: auto"
+        />
+      </label>
+      <nav>
+        <a id="menu" href="#"><img src="../images/lht_navicon.png" alt="" /></a>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./menu.html">Menu</a></li>
+          <li><a href="./specials.html">Special</a></li>
+          <li><a href="./today'sSpecials.html">Today's Specials</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="content">
+      <!-- Form for Today’s Specials -->
+      <form id="todays-specials" action="submit_specials.php" method="post">
+        <table id="menu-table">
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Item Name</th>
+              <th>Price</th>
+              <th>Special Instructions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              >
+              <td><img src="../images/sanbusa.jpg" alt="Item 1" /></td>
+              <td>Sanbusa</td>
+              <td>$5</td>
+              <td>
+                <input type="number" name="quantity_item2" value="1" min="0" />
+              </td>
+              <td><input type="text" name="special_instructions_item1" /></td>
+            </tr>
+            <tr>
+              <td><img src="../images/tebes .jpg" alt="Item 2" /></td>
+              <td>Tebes</td>
+              <td>$25</td>
+              <td>
+                <input type="number" name="quantity_item2" value="1" min="0" />
+              </td>
+              <td><input type="text" name="special_instructions_item2" /></td>
+            </tr>
+            <tr>
+              <td><img src="../images/shero.jpg" alt="Item 1" /></td>
+              <td>Shero</td>
+              <td>$15</td>
+              <td>
+                <input type="number" name="quantity_item2" value="1" min="0" />
+              </td>
+              <td><input type="text" name="special_instructions_item1" /></td>
+            </tr>
+            <tr>
+              <td><img src="../images/dorowet.jpeg" alt="Item 2" /></td>
+              <td>Dorowet</td>
+              <td>$35</td>
+              <td>
+                <input type="number" name="quantity_item2" value="1" min="0" />
+              </td>
+              <td><input type="text" name="special_instructions_item2" /></td>
+            </tr>
+            <tr>
+              <td><img src="../images/beyeayent.jpeg" alt="Item 1" /></td>
+              <td>Beyeayent</td>
+              <td>$30</td>
+              <td>
+                <input type="number" name="quantity_item2" value="1" min="0" />
+              </td>
+              <td><input type="text" name="special_instructions_item1" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="button" type="button" onclick="calculate()">
+          Calculate Order
+        </button>
+      </form>
+    </section>
+    <footer class="footer">
+      <p>Copy write © 2024 Enjoy Ethiopian Foods</p>
+    </footer>
+
+    <script src="../js/calculate.js"></script>
+  </body>
+</html>

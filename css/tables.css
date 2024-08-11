@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: header;
+  src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+
+@font-face {
+  font-family: h1;
+  src: url(../fonts/Mulish-Regular.ttf);
+}
+
+@font-face {
+  font-family: p;
+  src: url(../fonts/Aileron-Regular.otf);
+}
+
+
+/* Table Header Styles */
+
+thead {
+  color: #2d6260;
+  font-family: header;
+  font-size: 25px;
+  
+}
+tbody {
+  color: #0a3200;
+  font-family: p;
+  font-size: 18px;
+ 
+}
+
+/* Table Footer Styles */
+
+tfoot {
+  color: #0a3200;
+  font-family: p;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+ 
+}
+

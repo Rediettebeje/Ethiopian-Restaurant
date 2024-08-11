@@ -1,0 +1,74 @@
+/* Style the table */
+#menu-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table header */
+#menu-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Style table rows */
+#menu-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Style alternate rows */
+#menu-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style table images */
+#menu-table img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: auto;
+}
+/* Style table images */
+#menu-table img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust spacing around images */
+#menu-table td:first-child {
+    padding: 8px 16px;
+    
+}
+
+/* Style table header */
+#menu-table th:first-child {
+    background-color: #f2f2f2;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+
+/* Style the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Style the button */
+.button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #2d6260;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
